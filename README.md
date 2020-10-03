@@ -18,5 +18,3 @@ Once its up an running call the `profiler.start` service.
 
 This will generate a `profile.TIMESTAMP.cprof` and `callgrind.out.TIMESTAMP` file in your home assistant directory after 60 seconds.
 
-I can use those files to get a better idea of what is going on
-
