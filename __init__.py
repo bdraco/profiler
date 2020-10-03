@@ -30,7 +30,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
 
     lock = asyncio.Lock()
 
-    async def _async_generate_profile(call: ServiceCall):
+    async def _async_run_profile(call: ServiceCall):
         async with lock:
             await _async_generate_profile(hass, call)
 
@@ -38,7 +38,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
         hass,
         DOMAIN,
         SERVICE_START,
-        _async_generate_profile,
+        _async_run_profile,
         schema=vol.Schema(
             {vol.Optional(CONF_SECONDS, default=60.0): vol.Coerce(float)}
         ),
