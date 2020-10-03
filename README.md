@@ -1,6 +1,8 @@
 # profiler
 Home Assistant Profiler
 
+The profiler is setup via a config flow to allow for installs without a restart so you can find a performance issue while Home Assistant is running as a restart may make the issue hard to reproduce.
+
 To install:
 
 ```
