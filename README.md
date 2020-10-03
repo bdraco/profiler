@@ -1,8 +1,6 @@
 # profiler
 Home Assistant Profiler
 
-I've put together a profiler.
-
 To install:
 
 ```
