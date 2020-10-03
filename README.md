@@ -1,7 +1,7 @@
 # profiler
 Home Assistant Profiler
 
-The profiler can be installed via HACS by adding https://github.com/bdraco/profiler.git as a custom repository.
+The profiler can be installed via HACS by adding `https://github.com/bdraco/profiler.git` as a custom repository.
 
 Then setup the Profile integration
 
