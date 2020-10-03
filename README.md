@@ -8,7 +8,9 @@ cd custom_components
 git clone https://github.com/bdraco/profiler.git
 ```
 
-Then setup the Profile integration (no restart needed).
+Then setup the Profile integration
+
+<img width="787" alt="Screen Shot 2020-10-03 at 8 55 58 AM" src="https://user-images.githubusercontent.com/663432/94993383-46ea0400-0556-11eb-94fd-868d8267eb7e.png">
 
 Once its up an running call the `profiler.start` service.
 
