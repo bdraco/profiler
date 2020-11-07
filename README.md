@@ -18,6 +18,6 @@ This will generate a `profile.TIMESTAMP.cprof` and `callgrind.out.TIMESTAMP` fil
 
 To watch growth of objects in memory of time.
 <img width="624" alt="Screen Shot 2020-11-07 at 11 55 10 AM" src="https://user-images.githubusercontent.com/663432/98452086-39dda900-20f0-11eb-9d90-80555d455ffc.png">
-...and then dump intresting objects to the log:
 
+...and then dump intresting objects to the log:
 <img width="610" alt="Screen Shot 2020-11-07 at 11 55 22 AM" src="https://user-images.githubusercontent.com/663432/98452084-377b4f00-20f0-11eb-993d-ab77757a3858.png">
